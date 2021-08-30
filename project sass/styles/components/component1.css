@@ -1,0 +1,121 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.header {
+  width: 1920px;
+  height: 1280px;
+  background-color: #222533;
+  position: relative;
+  margin: 0px;
+}
+.header .p1 {
+  text-align: center;
+  font-size: 29px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: absolute;
+  top: 471px;
+  left: 37.0833333333%;
+  letter-spacing: 9.6px;
+  transform: translate(0%, -20%);
+}
+.header .p1 span {
+  color: #1d8e7c;
+}
+.header .p2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #FFFFFF;
+  position: absolute;
+  top: 523px;
+  left: 418px;
+  transform: translate(-1.5%, -21%);
+}
+.header .p3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  position: absolute;
+  top: 598px;
+  left: 575px;
+  font-size: 30px;
+  transform: translate(-2%, -20%);
+}
+.header .button {
+  width: 421px;
+  height: 61px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 690px;
+  left: 780px;
+  transform: translate(-7%, -38%);
+  box-sizing: border-box;
+}
+.header .button > :first-child {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #FFFFFF;
+  width: 201px;
+  height: 100%;
+  background-color: inherit;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+.header .button > :last-child {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #FFFFFF;
+  width: 201px;
+  height: 100%;
+  background-color: #1ABC9C;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+.header .radio {
+  width: 86px;
+  height: 14px;
+  position: absolute;
+  top: 767px;
+  left: 917px;
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+}
+.header .radio div {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+/*# sourceMappingURL=component1.css.map */

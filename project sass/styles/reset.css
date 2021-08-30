@@ -1,0 +1,23 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+/*# sourceMappingURL=reset.css.map */

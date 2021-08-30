@@ -1,0 +1,50 @@
+@import '../reset.scss';
+@import '../palette.scss';
+@import '../shared.scss';
+
+
+.about {
+    width: 1920px;
+    height: 501px;
+    background-color: rgb(249,251,250);
+    margin-top: 100px;
+    position: relative;
+
+    h1 {
+        @include text-features(left,36px,'Lato',300,black);
+        margin: 0px;
+        position: absolute;
+        top: 90px;
+        left: 375px;
+    }
+
+    p {
+        @include text-features(left,14px,'Lato',400,#A1B1BC);
+        margin: 0px;
+        height: 159px;
+        position: absolute;
+        top: 143.5px;
+        left: 375px;
+        transform: translate(0%,4%);
+        line-height: 24px;
+        display: block;
+    }
+
+    button {
+        @include text-features(center,16px,'Lato',900,black);
+        width: 175px;
+        height: 51px;
+        background-color: #FFFFFF;
+        color: #34495E;
+        position:absolute;
+        top: 343px;
+        left: 373px;
+        border: 1px solid #E5E5E5;
+    }
+
+    img {
+        position: absolute;
+        top: 127px;
+        left: 1008px;
+    }
+}

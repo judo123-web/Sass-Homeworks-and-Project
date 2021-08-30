@@ -1,0 +1,128 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.blog {
+  width: 1920px;
+  height: 789px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.blog .title {
+  margin: 98px auto;
+  width: 587px;
+  height: 85px;
+}
+.blog .title h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #2C3E50;
+  margin: 0px;
+  transform: translate(1%, -15%);
+}
+.blog .title p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  line-height: 24px;
+  transform: translate(1%, 4%);
+}
+.blog .blogs {
+  width: 1200px;
+  height: 455px;
+  margin: -45px auto;
+  display: flex;
+  row-gap: 45px;
+  flex-wrap: wrap;
+  transform: translate(1.3%);
+  box-sizing: border-box;
+}
+.blog .blogs div {
+  width: 33.3%;
+  height: 206px;
+  box-sizing: border-box;
+  position: relative;
+}
+.blog .blogs div div {
+  width: 170px;
+  height: 201px;
+  background-color: #CCCCCC;
+  transform: translate(0%, 1%);
+}
+.blog .blogs div div:hover {
+  background-color: #222533;
+}
+.blog .blogs div h1 {
+  text-align: initial;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #2C3E50;
+  margin: 0px;
+  position: absolute;
+  top: -4px;
+  left: 189px;
+  line-height: 27px;
+}
+.blog .blogs div i {
+  width: 14px;
+  height: 16px;
+  font-size: 15px;
+  color: #1ABC9C;
+}
+.blog .blogs .blog-div1 {
+  width: 125px;
+  height: 16px;
+  background-color: initial;
+  position: absolute;
+  top: 117px;
+  left: 190px;
+}
+.blog .blogs .blog-div2 {
+  width: 125px;
+  height: 16px;
+  background-color: initial;
+  position: absolute;
+  top: 148px;
+  left: 190px;
+}
+.blog .blogs .blog-div3 {
+  width: 125px;
+  height: 16px;
+  background-color: initial;
+  position: absolute;
+  top: 177px;
+  left: 190px;
+}
+.blog .blogs p {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  text-align: right;
+  transform: translate(-3.5%);
+}
+
+/*# sourceMappingURL=component12.css.map */

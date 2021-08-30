@@ -1,0 +1,194 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+main {
+  width: 1920px;
+  height: 1097px;
+  overflow: hidden;
+}
+main .price {
+  width: 1171px;
+  height: 648px;
+  margin: 100px auto;
+  /* overflow: hidden; */
+  position: relative;
+  transform: translate(-0.7%);
+}
+main .price .title {
+  width: 610px;
+  height: 81px;
+  margin: auto;
+}
+main .price .title h1 {
+  margin: 0px;
+  color: #2C3E50;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 350;
+  text-align: center;
+  transform: translate(1.4%, -20%);
+}
+main .price .title p {
+  margin: 0px;
+  padding: 0px;
+  width: 650px;
+  font-size: 14px;
+  text-align: center;
+  color: #A1B1BC;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  transform: translate(-1.9%, -6%);
+}
+main .price .table {
+  width: 1171px;
+  height: 476px;
+  position: absolute;
+  bottom: -2px;
+  left: 6px;
+  display: grid;
+  grid-template-rows: 151px 37px 38px 40px 39px 40px 40px 85px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
+main .price .table div {
+  font-size: 14px;
+  color: #686D80;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+main .price .table div p {
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-48%, 50%);
+}
+main .price .table .div2-div3-div4, main .price .table .div4, main .price .table .div3, main .price .table .div2 {
+  background-image: linear-gradient(to top, #1FD1B4 58%, #34495E 42%);
+  /* position: relative; */
+}
+main .price .table .div2-div3-div4 p, main .price .table .div4 p, main .price .table .div3 p, main .price .table .div2 p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  transform: translate(-48%, 54%);
+}
+main .price .table .div2-div3-div4 > :last-child, main .price .table .div4 > :last-child, main .price .table .div3 > :last-child, main .price .table .div2 > :last-child {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  transform: translate(-48%, 54%);
+  font-size: 48px;
+  margin: 0px;
+  line-height: 15px;
+  transform: translate(-48%, 215%);
+  text-align: center;
+  font-weight: 300;
+}
+main .price .table button {
+  width: 120px;
+  height: 33px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  background-color: #1ABC9C;
+  transform: translate(74%, 65%);
+  border: #1ABC9C;
+}
+main .price .table .div3 {
+  background-image: linear-gradient(to top, #1FD1B4 52%, #34495E 48%);
+}
+main .price .table .price .table .div4 {
+  background-image: linear-gradient(to top, #1FD1B4 58%, #34495E 42%);
+}
+main .price .table .muqi {
+  background-color: #EAEBEC;
+}
+main .price .table .gia {
+  background-color: #F6F6F6;
+}
+main .price .table .mm {
+  background-color: #ECF0F1;
+}
+
+.promo {
+  width: 1170px;
+  height: 150px;
+  margin: 99px auto;
+  border: 1px solid #EAEBEC;
+  background-color: #FFFFFF;
+  /* transform: translate(1%); */
+  box-sizing: border-box;
+}
+.promo .rectangle {
+  width: 10px;
+  height: 140px;
+  background-color: #1ABC9C;
+  float: left;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+.promo h1 {
+  color: #2C3E50;
+  text-align: left;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  float: left;
+  margin-left: 30px;
+  margin-top: 27px;
+}
+.promo p {
+  width: 1000px;
+  color: #A1B1BC;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  float: left;
+  margin-left: 29px;
+  margin-top: -10px;
+  line-height: 24px;
+}
+.promo button {
+  width: 176px;
+  height: 52px;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  float: right;
+  background-color: #1ABC9C;
+  transform: translate(-29%, -128%);
+  border: 0px;
+}
+
+/*# sourceMappingURL=component10.css.map */

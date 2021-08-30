@@ -1,0 +1,132 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.capability {
+  width: 1920px;
+  height: 700px;
+  background-color: #222533;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.capability .title {
+  width: 620px;
+  height: 88px;
+  margin: 98px auto;
+  padding: 0px;
+}
+.capability .title h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-top: 0px;
+  transform: translate(0%, -18%);
+}
+.capability .title p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  color: #FFFFFF;
+  transform: translate(0%, -55%);
+  line-height: 24px;
+}
+.capability .percent {
+  margin: 157px auto;
+  width: 1139px;
+  height: 233px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+}
+.capability .percent > :nth-child(2) .div3 {
+  background-color: black !important;
+}
+.capability .percent div {
+  width: 239px;
+  height: 100%;
+  position: relative;
+}
+.capability .percent div h1 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 137px;
+  text-align: center;
+  transform: translate(0%, -18%);
+}
+.capability .percent div p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 24px;
+  transform: translate(0%, -14%);
+}
+.capability .percent div .div1 {
+  width: 200px;
+  height: 200px;
+  background-color: #1ABC9C;
+  position: absolute;
+  left: 19px;
+  bottom: 126px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capability .percent div .div1 .div2 {
+  width: 190px;
+  height: 190px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capability .percent div .div1 .div2 .div3 {
+  width: 106px;
+  height: 106px;
+  background-color: #ECF0F1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capability .percent div .div1 .div2 .div3 p {
+  margin: 0px;
+  font-size: 18px;
+  color: #4E4E4E;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  transform: translate(0%, -8%);
+}
+
+/*# sourceMappingURL=component5.css.map */

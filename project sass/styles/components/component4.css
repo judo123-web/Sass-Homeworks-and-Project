@@ -1,0 +1,77 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.about {
+  width: 1920px;
+  height: 501px;
+  background-color: #f9fbfa;
+  margin-top: 100px;
+  position: relative;
+}
+.about h1 {
+  text-align: left;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: black;
+  margin: 0px;
+  position: absolute;
+  top: 90px;
+  left: 375px;
+}
+.about p {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  margin: 0px;
+  height: 159px;
+  position: absolute;
+  top: 143.5px;
+  left: 375px;
+  transform: translate(0%, 4%);
+  line-height: 24px;
+  display: block;
+}
+.about button {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: black;
+  width: 175px;
+  height: 51px;
+  background-color: #FFFFFF;
+  color: #34495E;
+  position: absolute;
+  top: 343px;
+  left: 373px;
+  border: 1px solid #E5E5E5;
+}
+.about img {
+  position: absolute;
+  top: 127px;
+  left: 1008px;
+}
+
+/*# sourceMappingURL=component4.css.map */

@@ -1,0 +1,138 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.test {
+  width: 1920px;
+  height: 711px;
+  background-color: #f9fbfa;
+  position: relative;
+}
+.test .title {
+  width: 32.3%;
+  min-height: 88px;
+  position: absolute;
+  left: 50%;
+  top: 13.78%;
+  transform: translate(-50%, 0%);
+}
+.test .title h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #2C3E50;
+  transform: translate(0%, -87%);
+}
+.test .title p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  margin: 0px;
+  transform: translate(-0.2%, -117%);
+  line-height: 24px;
+}
+.test .testdiv {
+  width: 60.99%;
+  height: 150px;
+  position: absolute;
+  top: 258px;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid #E7EBEE;
+  background-color: #FFFFFF;
+}
+.test .testdiv p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  margin: 0px;
+  text-align: center;
+  line-height: 30px;
+  transform: translate(0%, 68%);
+}
+.test .user {
+  width: 114px;
+  height: 173px;
+  position: absolute;
+  top: 439px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.test .user .avatar {
+  width: 111px;
+  height: 111px;
+  border-radius: 50%;
+  border: 1px solid #E6EBED;
+  box-sizing: border-box;
+  transform: translate(1.5%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test .user .avatar div {
+  width: 100px;
+  height: 100px;
+  background-color: #A1B1BC;
+  border-radius: 50%;
+}
+.test .user p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #2C3E50;
+  width: 214px;
+  height: 41px;
+  margin: 0px;
+  transform: translate(-23%, -12%);
+  line-height: 24px;
+}
+.test .user p span {
+  font-weight: 300;
+  font-size: 14.3px;
+}
+.test .pagin {
+  width: 94px;
+  height: 14px;
+  position: absolute;
+  top: 665px;
+  left: 50%;
+  transform: translate(-45%, -10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+}
+.test .pagin input {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #DDDDDD;
+  outline: none;
+}
+
+/*# sourceMappingURL=component8.css.map */

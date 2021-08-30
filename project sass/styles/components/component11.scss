@@ -1,0 +1,129 @@
+@import '../reset.scss';
+@import '../palette.scss';
+@import '../shared.scss';
+
+
+.feat {
+	width: 1920px;
+	height: 1264px;
+	background-color: rgb(249,251,250);
+	padding-top: 102px;
+	position: relative;
+	box-sizing: border-box;
+
+	.img1 {
+		transform: translate(0.5%);
+		position: absolute;
+		left: 19.50%;
+	}
+	.img2 {
+		transform: translate(0.5%);
+		position: absolute;
+		right: 21.3%;
+		top: 674px;
+		width: 558px;
+		height: 441px;
+		transform: translate(7%,14%);
+	}
+	.content1 {
+		width: 540px;
+		height: 413px;
+		margin-top: 62px;
+		margin-left: 54px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		position: absolute;
+		right: 21.3%;
+		h1 {
+            @include text-features(left,36px,'Lato',300,#FFFFFF);
+            margin-left: 3px;
+			margin-top: -7px;
+			color: black;
+		}
+		.featured {
+			height: 335px;
+			width: 540px;
+			display: flex;
+			align-content: space-between;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			div {
+				width: 240px;
+				height: 143px;
+			}
+		}
+	}
+	.content2 {
+		h1 {
+            @include text-features(left,36px,'Lato',300,#FFFFFF);
+            margin-left: 3px;
+			margin-top: -7px;
+			color: black;
+		}
+		.featured {
+			height: 335px;
+			width: 540px;
+			display: flex;
+			align-content: space-between;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			div {
+				width: 240px;
+				height: 143px;
+			}
+		}
+		width: 540px;
+		height: 413px;
+		float: left;
+		margin-top: 62px;
+		margin-left: 54px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		position: absolute;
+		left: 16.55%;
+		top: 674px;
+	}
+	.featured {
+		div {
+			h1 {
+                @include text-features(initial,18px,'Lato',bold,#2C3E50);margin: 0px;
+				float: left;
+				margin-left: 9px;
+				margin-top: 7px;
+				transform: translate(0%,4%);
+			}
+			p {
+                @include text-features(left,14px,'Lato',400,#A1B1BC);
+				width: 239px;
+				margin: 0px;
+				text-align: left;
+				float: left;
+				line-height: 24.5px;
+				margin-left: 1px;
+				margin-top: 8px;
+				transform: translate(1.7%);
+			}
+		}
+		a {
+			text-decoration: none;
+			display: block;
+			color: #1ABC9C;
+			font-family: 'Lato', sans-serif;
+			font-weight: 700;
+			font-size: 15px;
+			float: left;
+			margin-top: 7px;
+			margin-left: 4px;
+		}
+	}
+}
+.featured {
+	div {
+		img {
+			margin-left: 5px;
+			float: left;
+		}
+	}
+}

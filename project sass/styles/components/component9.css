@@ -1,0 +1,153 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.feature {
+  width: 1920px;
+  height: 881px;
+  background-color: #222533;
+  position: relative;
+  overflow: hidden;
+}
+.feature .title {
+  width: 546px;
+  height: 83px;
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.feature .title h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin: 0px;
+  transform: translate(0%, -15%);
+}
+.feature .title h1 span {
+  font-family: inherit;
+  font-weight: 400;
+  color: green;
+}
+.feature .title p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #E8E8E8;
+  margin: 0px;
+  transform: translate(-0.2%, -4.4%);
+  line-height: 24px;
+}
+.feature .div1-div2, .feature .div2, .feature .div1 {
+  width: 293px;
+  height: 453px;
+  position: absolute;
+  top: 322px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.feature .div1 {
+  left: 19.9%;
+}
+.feature .div1 div {
+  height: 121px;
+  width: 100%;
+}
+.feature .div1 div h1 {
+  text-align: right;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0px;
+  margin-right: 15px;
+  transform: translate(0%, 50%);
+  float: right;
+}
+.feature .div1 div div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1FDAB5;
+  float: right;
+}
+.feature .div1 div p {
+  width: 300px;
+  color: #E8E8E8;
+  text-align: right;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  transform: translate(-0.2%, 10%);
+  line-height: 24px;
+  float: right;
+}
+.feature .div2 {
+  position: absolute;
+  right: 19.9%;
+}
+.feature .div2 div {
+  height: 121px;
+  width: 100%;
+}
+.feature .div2 div h1 {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0px;
+  margin-left: 15px;
+  float: left;
+  transform: translate(-2.6%, 53%);
+}
+.feature .div2 div div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1FDAB5;
+  float: left;
+}
+.feature .div2 div p {
+  width: 300px;
+  color: #E8E8E8;
+  text-align: left;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  transform: translate(-0.2%, 10%);
+  line-height: 24px;
+  float: left;
+}
+.feature img {
+  position: absolute;
+  top: 232px;
+  left: 737px;
+}
+
+/*# sourceMappingURL=component9.css.map */

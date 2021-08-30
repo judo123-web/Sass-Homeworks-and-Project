@@ -1,0 +1,58 @@
+@import '../reset.scss';
+@import '../palette.scss';
+@import '../shared.scss';
+
+footer {
+    width: 1920px;
+    height: 80px;
+    background-color: #222533;
+    margin-top: -6px;
+    @include flex(center,center);
+
+    .leftdiv {
+        width: 557px;
+        height: 15px;
+        transform: translate(-2.8%,-8%);
+
+        img{
+            width: 18px;
+            height: 20px;
+            float: left;
+        }
+
+        p {
+            @include text-features(center,15px,'Lato',400,#A1B1BC);
+            margin: 0px;
+            margin-left: 20px;
+            float: left;
+            transform: translate(-0.1%,-8%);
+        
+        }
+    }
+    
+    .right {
+        width: 432px;
+        height: 100%;
+        margin-left: percent-finder(1920,151);
+        padding: 0px;
+        list-style-type: none;
+        padding: 0px;
+        transform: translate(14px,-1px);
+        @include flex(space-between);
+
+        li {
+            @include text-features(center,14px,'Lato',400,#A1B1BC);
+            
+            display: block;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+        }
+        
+
+        
+    }
+
+
+
+}

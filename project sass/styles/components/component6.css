@@ -1,0 +1,93 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+.service {
+  width: 1920px;
+  height: 541px;
+  position: relative;
+}
+.service .title {
+  width: 32.3%;
+  min-height: 87px;
+  margin: auto;
+  transform: translate(0px, 100px);
+}
+.service .title h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #2C3E50;
+  margin: 0px;
+  transform: translate(0%, -20%);
+}
+.service .title p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  margin: 0px;
+  transform: translate(0%, 6%);
+  line-height: 24px;
+}
+.service .copy {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+}
+.service .copy div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding-top: 47px;
+  border: 1px solid #ECF0F1;
+}
+.service .copy div img {
+  width: 40px;
+  height: 58px;
+}
+.service .copy div h1 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 44px;
+  transform: translate(0%, -12%);
+  color: initial;
+}
+.service .copy div p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  margin-top: 0px;
+  transform: translate(0%, -4%);
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=component6.css.map */

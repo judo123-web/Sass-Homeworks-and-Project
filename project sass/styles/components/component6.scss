@@ -1,0 +1,65 @@
+@import '../reset.scss';
+@import '../palette.scss';
+@import '../shared.scss';
+
+.service {
+    width: 1920px;
+    height: 541px;
+    position: relative;
+
+    .title {
+        width: 32.3%;
+        min-height: 87px;
+        margin: auto;
+        transform: translate(0px,100px);
+
+        h1 {
+            @include text-features(center,36px,'Lato',300,#2C3E50);
+            margin: 0px;
+            transform: translate(0%,-20%);
+        }
+
+        p {
+            @include text-features(center,14px,'Lato',400,#A1B1BC);
+            margin: 0px;
+            transform: translate(0%,6%);
+            line-height: 24px;
+        }
+    }
+
+    .copy {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            align-items: center;
+            padding-top: 47px;
+            border: 1px solid #ECF0F1;
+
+            img {
+                width: 40px;
+                height: 58px;
+            }
+
+            h1 {
+                @include text-features(center,18px,'Lato',700);
+                margin-top: 44px;
+                transform: translate(0%,-12%);
+                color: initial 
+            }
+
+            p {
+                @include text-features(center,14px,'Lato',400,#A1B1BC);
+                margin-top: 0px;
+                transform: translate(0%,-4%);
+                line-height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+html, body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  align-items: left;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0px;
+}
+
+footer {
+  width: 1920px;
+  height: 80px;
+  background-color: #222533;
+  margin-top: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .leftdiv {
+  width: 557px;
+  height: 15px;
+  transform: translate(-2.8%, -8%);
+}
+footer .leftdiv img {
+  width: 18px;
+  height: 20px;
+  float: left;
+}
+footer .leftdiv p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  margin: 0px;
+  margin-left: 20px;
+  float: left;
+  transform: translate(-0.1%, -8%);
+}
+footer .right {
+  width: 432px;
+  height: 100%;
+  margin-left: 7.8645833333%;
+  padding: 0px;
+  list-style-type: none;
+  padding: 0px;
+  transform: translate(14px, -1px);
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+}
+footer .right li {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #A1B1BC;
+  display: block;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=component15.css.map */
